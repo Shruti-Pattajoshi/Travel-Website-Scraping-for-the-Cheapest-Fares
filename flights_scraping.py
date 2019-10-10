@@ -176,7 +176,7 @@ def send_email(msg):
     message['to'] = 'spj11@iitbbs.ac.in'
     server.sendmail('sweetshruti110096@gmail.com', 'spj11@iitbbs.ac.in', msg)
 
-for i in range(4): # 4 times in one hour
+for i in range(4): # 4 times after every one hour
     link = 'https://www.expedia.co.in/' #easy to access website comparitively
     browser.get(link)
 
